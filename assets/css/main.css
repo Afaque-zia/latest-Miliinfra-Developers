@@ -456,7 +456,7 @@ img {
   --ztc-text-text-8: #1f4166;
   --ztc-bg-bg-1: #fff;
   --ztc-bg-bg-2: #405fa8;
-  --ztc-bg-bg-3: #CBCD30;
+  --ztc-bg-bg-3: #1A47FB;
   --ztc-bg-bg-4: #073B3A;
   --ztc-bg-bg-5: #FCC608;
   --ztc-bg-bg-6: #1A47FB;
@@ -617,10 +617,10 @@ Location:
 .heading1 h2 {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s44);
+  font-size: var(--ztc-font-size-font-s24);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
-  line-height: 44px;
+  line-height: 28px;
 }
 
 @media (max-width: 767px) {
@@ -722,7 +722,7 @@ Location:
 .theme-btn1 {
   display: inline-block;
   padding: 14px 16.57px;
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
   font-weight: var(--ztc-weight-medium);
@@ -18182,18 +18182,18 @@ Location:
 .mission-section-area .vission-mission-box p {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
-  line-height: 26px;
+  line-height: 19px;
 }
 
 .mission-section-area .img1 {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 400px;
   position: relative;
-  margin-top: -100px;
-  left: -170px;
+  margin-top: -10px;
+  left: -70px;
   z-index: -1;
 }
 
@@ -18240,7 +18240,7 @@ Location:
 }
 
 .offer1-section-area .img1 img {
-  height: 665px;
+  height: 465px;
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
@@ -18285,7 +18285,7 @@ Location:
 .offer1-section-area .offer-boxarea a {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s24);
+  font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
   line-height: 24px;
@@ -18301,10 +18301,10 @@ Location:
 .offer1-section-area .offer-boxarea p {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
-  line-height: 26px;
+  line-height: 19px;
 }
 
 .offer1-section-area .offer-boxarea .readmore {
@@ -24865,7 +24865,7 @@ Location:
 }
 
 .testimonial1-section-area .images-area2 .img1 {
-  height: 404px;
+  height: 305px;
 }
 
 .testimonial1-section-area .images-area2 .img1 img {
