@@ -7857,7 +7857,7 @@ Location:
 .footer4-section-area {
   position: relative;
   z-index: 1;
-  padding: 222px 0 32px;
+  padding: 122px 0 12px;
 }
 
 .footer4-section-area .footer-others-section {
@@ -7977,11 +7977,12 @@ Location:
 .footer4-section-area .footer-logoarea p {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s18);
+  font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
-  line-height: 28px;
+  line-height: 20px;
   opacity: 80%;
+  margin-bottom: 10px;
 }
 
 .footer4-section-area .footer-logoarea ul li {
@@ -8076,13 +8077,13 @@ Location:
 .footer4-section-area .footer-content2 ul li a {
   color: var(--ztc-text-text-3);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s16);
+  font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
   line-height: 16px;
   display: inline-block;
   transition: all 0.4s;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .footer4-section-area .footer-content2 ul li a svg {
@@ -24884,10 +24885,10 @@ Location:
 .testimonial1-section-area .testimonial-slider-area .testimonial-box p {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font2);
-  font-size: var(--ztc-font-size-font-s24);
+  font-size: var(--ztc-font-size-font-s18);
   font-style: normal;
   font-weight: var(--ztc-weight-regular);
-  line-height: 36px;
+  line-height: 24px;
   display: inline-block;
   transition: all 0.4s;
 }
