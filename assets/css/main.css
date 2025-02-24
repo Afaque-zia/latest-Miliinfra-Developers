@@ -453,14 +453,14 @@ img {
   --ztc-text-text-5: #073B3A;
   --ztc-text-text-6: #FCC608;
   --ztc-text-text-7: #1A47FB;
-  --ztc-text-text-8: #FF6B00;
+  --ztc-text-text-8: #1f4166;
   --ztc-bg-bg-1: #fff;
-  --ztc-bg-bg-2: #030E0F;
+  --ztc-bg-bg-2: #405fa8;
   --ztc-bg-bg-3: #CBCD30;
   --ztc-bg-bg-4: #073B3A;
   --ztc-bg-bg-5: #FCC608;
   --ztc-bg-bg-6: #1A47FB;
-  --ztc-bg-bg-7: #FF6B00;
+  --ztc-bg-bg-7: #405fa8;
   --ztc-border-border-1: #E5E7EB;
   --ztc-border-border-2: #dfdcdc;
   --ztc-font-size-font-s10: 10px;
@@ -571,9 +571,9 @@ img {
 
 /*
 ============================
-Name:  HouseBox - Real Esate Template
+Name:  MIli Infra - Real Esate Template
 Version: 1.0.0
-Description: HouseBox - Real Esate Template
+Description: MIli Infra - Real Esate Template
 Author: alithemes
 Author URI: https://themeforest.net/user/alithemes/portfolio
 Location:
@@ -697,10 +697,10 @@ Location:
 .heading3 h2 {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s44);
+  font-size: var(--ztc-font-size-font-s34);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
-  line-height: 54px;
+  line-height: 36px;
 }
 
 @media (max-width: 767px) {
@@ -2048,8 +2048,8 @@ Location:
 }
 
 .about4-section-area .about-heading .counter-boxes {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-bottom: 1px solid #E6E7E7;
   border-top: 1px solid #E6E7E7;
 }
@@ -2850,10 +2850,10 @@ Location:
 .hero4-section-area .hero-header h1 {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s56);
+  font-size: var(--ztc-font-size-font-s42);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
-  line-height: 64px;
+  line-height: 42px;
 }
 
 @media (max-width: 767px) {
@@ -2889,7 +2889,7 @@ Location:
 
 .hero4-section-area .property-tab-section4 .tab-btn {
   flex: 1;
-  padding: 14px 60px;
+  padding: 14px 50px;
   background: #F2F1F1;
   border: none;
   cursor: pointer;
@@ -2934,7 +2934,7 @@ Location:
   padding: 16px;
   border-radius: 8px;
   height: auto;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .hero4-section-area .property-tab-section4 .dropdown-container .nice-select::after {
@@ -7860,6 +7860,15 @@ Location:
   padding: 122px 0 12px;
 }
 
+.footer4-section-area::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(36 25 159 / 89%);
+  z-index: -1;
+}
+
+
 .footer4-section-area .footer-others-section {
   background: var(--ztc-bg-bg-1);
   padding: 32px;
@@ -7972,10 +7981,11 @@ Location:
   width: 170px;
   height: 48px;
   object-fit: contain;
+  filter: brightness(0) grayscale(1) invert(1);
 }
 
 .footer4-section-area .footer-logoarea p {
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
@@ -8003,8 +8013,20 @@ Location:
   margin: 0 8px 0 0;
 }
 
-.footer4-section-area .footer-logoarea ul li a:hover {
+.footer4-section-area .footer-logoarea ul li:nth-of-type(1) a:hover {
   background: var(--ztc-bg-bg-7);
+  transition: all 0.4s;
+  color: var(--ztc-text-text-1);
+}
+
+.footer4-section-area .footer-logoarea ul li:nth-of-type(2) a:hover {
+  background: #DE6666;
+  transition: all 0.4s;
+  color: var(--ztc-text-text-1);
+}
+
+.footer4-section-area .footer-logoarea ul li:nth-of-type(3) a:hover {
+  background: #F70000;
   transition: all 0.4s;
   color: var(--ztc-text-text-1);
 }
@@ -8027,7 +8049,7 @@ Location:
 }
 
 .footer4-section-area .footer-content h3 {
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s24);
   font-style: normal;
@@ -8036,7 +8058,7 @@ Location:
 }
 
 .footer4-section-area .footer-content ul li a {
-  color: var(--ztc-text-text-3);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s16);
   font-style: normal;
@@ -8048,7 +8070,7 @@ Location:
 }
 
 .footer4-section-area .footer-content ul li a:hover {
-  color: var(--ztc-text-text-8);
+  color: var(--ztc-text-text-1);
   transition: all 0.5s;
   padding-left: 5px;
 }
@@ -8066,7 +8088,7 @@ Location:
 }
 
 .footer4-section-area .footer-content2 h3 {
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s24);
   font-style: normal;
@@ -8075,7 +8097,7 @@ Location:
 }
 
 .footer4-section-area .footer-content2 ul li a {
-  color: var(--ztc-text-text-3);
+  color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s14);
   font-style: normal;
@@ -8093,9 +8115,8 @@ Location:
 }
 
 .footer4-section-area .footer-content2 ul li a:hover {
-  color: var(--ztc-text-text-8);
+  color: var(--ztc-text-text-1);
   transition: all 0.5s;
-  padding-left: 0 !important;
 }
 
 @media (max-width: 767px) {
@@ -8161,7 +8182,7 @@ Location:
 }
 
 .footer4-section-area .copyright p {
-  color: var(--ztc-text-text-2);
+  color: var(--ztc-text-text-1);
   text-align: center;
   font-family: var(--ztc-family-font1);
   font-size: var(--ztc-font-size-font-s18);
@@ -8353,6 +8374,11 @@ Location:
   width: 180px;
   object-fit: contain;
 }
+
+.homepage1-body .header-area.homepage1 .header-elements .site-logo img {
+  filter: brightness(0) grayscale(1);
+}
+
 
 .homepage1-body .header-area.homepage1 .header-elements .all-images-menu {
   display: flex;
@@ -9599,7 +9625,7 @@ Location:
   justify-content: space-between;
   position: relative;
   transition: all 0.4s;
-  padding: 16px 0;
+  padding: 10px 0;
 }
 
 .homepage4-body .header-area.homepage4 .header-elements .site-logo {
@@ -11161,8 +11187,9 @@ Location:
 }
 
 .properties4-section-area .property-feature-slider .property-single-boxarea .content-area ul {
-  padding-top: 20px;
+  padding: 10px 0px;
   border-top: 1px solid #F2F3F3;
+  display: flex;
 }
 
 .properties4-section-area .property-feature-slider .property-single-boxarea .content-area ul li {
@@ -23802,7 +23829,7 @@ Location:
 
 .items4-section-area .images-area .img1 img {
   width: 100%;
-  height: 400px;
+  height: 293px;
   border-radius: 16px;
   object-fit: cover;
 }
@@ -23812,7 +23839,7 @@ Location:
 }
 
 .items4-section-area .items-images-area .items-content-area {
-  padding: 40px;
+  padding: 10px 30px;
   border-radius: 16px;
   position: relative;
   transition: all 0.4s;
@@ -23870,10 +23897,10 @@ Location:
 .items4-section-area .items-images-area .items-content-area .content-area a {
   color: var(--ztc-text-text-2);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s28);
+  font-size: var(--ztc-font-size-font-s22);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
-  line-height: 32px;
+  line-height: 20px;
   display: inline-block;
   transition: all 0.4s;
 }
@@ -24753,10 +24780,10 @@ Location:
 .cta5-section-area .cta-bg-area .cta-header h2 {
   color: var(--ztc-text-text-1);
   font-family: var(--ztc-family-font1);
-  font-size: var(--ztc-font-size-font-s44);
+  font-size: var(--ztc-font-size-font-s28);
   font-style: normal;
   font-weight: var(--ztc-weight-semibold);
-  line-height: 52px;
+  line-height: 32px;
 }
 
 @media (max-width: 767px) {
