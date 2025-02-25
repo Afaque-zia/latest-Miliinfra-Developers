@@ -211,16 +211,85 @@
   <div class="add-property-section sp1">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
+          <style>
+            .heading1 {
+              border-radius: 16px;
+              border: 1px solid rgba(37, 39, 40, 0.1);
+              background: #f2f3f3d4;
+              backdrop-filter: blur(3px);
+              padding: 30px;
+              padding-bottom: 15px;
+            }
+
+            ol li {
+              list-style: auto;
+
+              ul {
+                padding-left: 30px;
+              }
+
+              ul li {
+                list-style: lower-alpha;
+              }
+            }
+
+            @media (max-width:768px) {
+              .heading1 {
+                margin-bottom: 15px;
+              }
+            }
+          </style>
           <div class="heading1">
-            <h2>Post Property</h2>
-            <div class="space32"></div>
+            <h2>How to Submit Your Property on Our Website</h2>
+            <p>Dear Agents, <br> To ensure a smooth property listing process, please follow these steps when using the
+              <b>"Post Your Property"</b> form:
+            </p>
+
+            <ol>
+              <li>
+                <h5>Fill in the Required Details</h5>
+                <ul>
+                  <li>
+                    Enter all necessary property details in the form.
+                  </li>
+                  <li>
+                    Fields marked with a star (*) are mandatory and must be completed.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h5>Submit the Form</h5>
+                <ul>
+                  <li>
+                    Once you have filled in all the required information, click the Submit button.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h5>Admin Review & Approval</h5>
+                <ul>
+                  <li>
+                    Your property submission will be sent to the admin for review.
+                  </li>
+                  <li>
+                    The admin will verify the details and approve the listing.
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <h5>Property Goes Live</h5>
+                <br>
+                Only after approval, your property will be showcased on the website.
+              </li>
+
+            </ol>
+            <!-- <div class="space10"></div> -->
           </div>
         </div>
-        <div class="col-lg-12">
+        <div class="col-lg-6">
           <div class="upload-main-boxarea">
-            <h3>Property Details</h3>
-            <div class="space32"></div>
             <div class="input-area">
               <h5>Full Name*</h5>
               <div class="space16"></div>
@@ -238,80 +307,10 @@
                 <div class="input-area">
                   <h5>Full Address*</h5>
                   <div class="space16"></div>
-                  <input type="text" placeholder="Property Full Address*">
+                  <input type="text" placeholder="Property Address*">
                 </div>
               </div>
-
               <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Zip Code*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="Property Zip Code">
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Country*</h5>
-                  <div class="space16"></div>
-                  <div class="nice-select" tabindex="0">
-                    <span class="current">Select</span>
-                    <ul class="list">
-                      <li data-value="1" class="option">USA</li>
-                      <li data-value="2" class="option selected">Australia</li>
-                      <li data-value="1" class="option">England</li>
-                      <li data-value="1" class="option">Portugal</li>
-                      <li data-value="1" class="option">California</li>
-                      <li data-value="1" class="option">Inter Milan</li>
-                      <li data-value="1" class="option">Liverpool</li>
-
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Province/State*</h5>
-                  <div class="space16"></div>
-                  <div class="nice-select" tabindex="0">
-                    <span class="current">None</span>
-                    <ul class="list">
-                      <li data-value="1" class="option">Texas</li>
-                      <li data-value="2" class="option selected">New York</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Neighborhood:</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="None">
-                </div>
-              </div>
-
-              <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Location*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="Property Zip Code">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="space60"></div>
-          <div class="upload-main-boxarea">
-            <h3>Property Price</h3>
-            <div class="space4"></div>
-            <div class="row">
-              <div class="col-lg-6 col-md-6">
                 <div class="space28"></div>
                 <div class="input-area">
                   <h5>Property Price*</h5>
@@ -319,56 +318,6 @@
                   <input type="text" placeholder="Price">
                 </div>
               </div>
-
-              <div class="col-lg-6 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Unit Price*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="Price">
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Before Price Label*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="Price">
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>After Price Label*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="Price">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="space60"></div>
-          <div class="upload-main-boxarea">
-            <h3>Additional Information</h3>
-            <div class="space4"></div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Property Type*</h5>
-                  <div class="space16"></div>
-                  <div class="nice-select" tabindex="0">
-                    <span class="current">Choose</span>
-                    <ul class="list">
-                      <li data-value="1" class="option">Villa</li>
-                      <li data-value="2" class="option selected">Studio</li>
-                      <li data-value="1" class="option">Park</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
               <div class="col-lg-4 col-md-6">
                 <div class="space28"></div>
                 <div class="input-area">
@@ -383,7 +332,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-6">
@@ -413,30 +361,24 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-12 col-md-12">
                 <div class="space28"></div>
-                <div class="input-area">
-                  <h5>Parking*</h5>
-                  <div class="space16"></div>
-                  <input type="text" placeholder="#">
+                <div class="btn-area1 text-center">
+                  <a href="#" class="theme-btn1">submit Property To Admin <span class="arrow1"><svg
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        fill="currentColor">
+                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                      </svg></span><span class="arrow2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                        width="24" height="24" fill="currentColor">
+                        <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
+                      </svg></span></a>
                 </div>
               </div>
-
-
             </div>
           </div>
 
-          <div class="space48"></div>
-          <div class="btn-area1 text-center">
-            <a href="#" class="theme-btn1">submit Property To Admin <span class="arrow1"><svg
-                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                  <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                </svg></span><span class="arrow2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
-                  height="24" fill="currentColor">
-                  <path d="M12 13H4V11H12V4L20 12L12 20V13Z"></path>
-                </svg></span></a>
-          </div>
         </div>
+
       </div>
     </div>
   </div>
