@@ -1966,6 +1966,22 @@ Location:
   border-radius: 16px;
 }
 
+@media (max-width:768px) {
+  .about4-section-area .about-images-area .img2 img {
+    display: none;
+  }
+
+  .about4-section-area .about-images-area .img1 img {
+    object-fit: unset;
+    max-height: 400px;
+    width: auto;
+  }
+
+  .about4-section-area .about-images-area .img1 {
+    margin: auto;
+  }
+}
+
 .about4-section-area .about-images-area .author-img .elements10 {
   position: absolute;
   left: 45%;
@@ -21967,6 +21983,22 @@ Location:
   background-image: url(../img/all-images/hero/hero3-img1.png);
   background-position: center bottom;
   background-attachment: fixed;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea.nice-select {
+  resize: none;
 }
 
 @media (max-width:768px) {
